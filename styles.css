@@ -11,10 +11,6 @@
     font-family: "Inria Sans", sans-serif;
 }
 
-#text-content {
-    margin-top: 60px;
-}
-
 h1 {
     margin-bottom: 0px;
     font-size: 40px;
@@ -24,6 +20,15 @@ h1 {
 p {
     font-size: 20px;
     margin-top: 0;
+}
+
+.charP {
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+label {
+    margin-right: 15px;
 }
 
 span {
