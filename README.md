@@ -1,6 +1,5 @@
-# password-generator
-Password Generator that creates passwords of length 15 using an array of upper case, lower case, numbers, and special characters
-
+<h1>password-generator</h1>
+<p>Password Generator that creates passwords of length 15 using an array of upper case, lower case, numbers, and special characters</p>
 
 <h2>Upcoming features:</h2>
 <ul>
