@@ -12,12 +12,27 @@
                 <h1>Generate a </br><span>random password</span></h1>
                 <p>Never use an insecure password again.</p>
             </div>
-            <button onclick="genPwds()">Generate passwords</button>
+            <div id="genSection">
+                <p class="charP">What characters would you like to include?</p>
+                <div id="options">
+                    <input type="checkbox" id="lowerCase">
+                    <label for="lowerCase" class = "charP">Lowercase</label>
+                    <input type="checkbox" id="upperCase">
+                    <label for="upperCase" class = "charP">Uppercase</label>
+                    <input type="checkbox" id="numbers">
+                    <label for="numbers" class = "charP">Numbers</label>
+                    <input type="checkbox" id="special">
+                    <label for="special" class = "charP">Special</label>
+                    <button id="checkAll">Check All</button>
+                </div>
+                <button id="genPassword" onclick="genPwds()">Generate passwords</button>
+            </div>
             <hr id="hr">
             <div id="pwd-options">
                 <div class="opt-field" id="opt1" onclick="copyText1()"></div>
                 <div class="opt-field" id="opt2" onclick="copyText2()"></div>
             </div>
+            <p id="warning"></p>
         </div>
         <script src="index.js"></script>
     </body>
